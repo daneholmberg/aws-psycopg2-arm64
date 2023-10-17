@@ -7,11 +7,10 @@ with open("version.txt", "r") as fv:
     version = fv.read().strip()
 
 setuptools.setup(
-    name="aws-psycopg2",
+    name="aws-psycopg2-arm64",
     version=version,
-    author="Abhimanyu HK",
-    author_email="manyu1994@hotmail.com",
-    description="A aws psycopg2 package from psycopg2.",
+    author="Dane H",
+    description="A aws psycopg2 package from psycopg2 compatible with arm64 (graviton).",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AbhimanyuHK/aws-psycopg2",
